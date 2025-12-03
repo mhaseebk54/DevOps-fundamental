@@ -1,0 +1,27 @@
+===== LOG FILE ANALYSIS REPORT =====
+File: sample.log
+Analyzed on: Wed, Dec  3, 2025 11:44:35 PM
+Size: 1.0K (346 bytes)
+
+MESSAGE COUNTS:
+ERROR: 3 messages
+WARNING: 1 messages
+INFO: 2 messages
+
+TOP 5 ERROR MESSAGES:
+      1 Invalid authentication token provided
+      1 Failed to write to disk: Permission denied
+      1 Database connection failed: timeout
+
+ERROR TIMELINE:
+First error: [2025-07-10 02:14:32] ERROR Database connection failed: timeout
+Last error:  [2025-07-10 02:20:30] ERROR Invalid authentication token provided
+
+Error frequency by hour:
+00-04: ██ (3)
+04-08: █ (0)
+08-12: █ (0)
+12-16: █ (0)
+16-20: █ (0)
+20-24: █ (0)
+
